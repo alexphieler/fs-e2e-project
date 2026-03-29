@@ -1,0 +1,3 @@
+[submodule "pacsim"]
+	path = pacsim
+	url = git@github.com:PacSim/pacsim.git

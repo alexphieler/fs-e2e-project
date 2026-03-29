@@ -1,0 +1,17 @@
+# Python bytecode (compiled files)
+__pycache__/
+*.py[cod]
+
+# Virtual environments (keep your local setup local)
+venv/
+.venv/
+env/
+
+# Environment variables (secret API keys, passwords)
+.env
+
+# Own stuff
+viz/
+pipeline/runs/
+pipeline/eval/
+pipeline/networks/

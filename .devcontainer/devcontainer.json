@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json.
+{
+  "name": "rlRacing (docker-compose)",
+  "dockerComposeFile": [
+    "../docker-compose.yaml"
+  ],
+  "service": "dev",
+  "workspaceFolder": "/root/workspace",
+  "overrideCommand": false,
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-iot.vscode-ros",
+        "eamodio.gitlens",
+        "ms-vscode.cmake-tools",
+        "ms-python.autopep8"
+      ]
+    }
+  }
+}
